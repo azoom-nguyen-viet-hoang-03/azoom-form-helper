@@ -1,0 +1,33 @@
+{
+  "name": "azoom-form-helper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon src/index.ts",
+    "start": "node dist/index.js",
+    "setup": "sh scripts/install-dev-dependencies.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.10",
+    "@typescript-eslint/eslint-plugin": "^6.9.1",
+    "@typescript-eslint/parser": "^6.9.1",
+    "eslint": "^8.52.0",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "firebase": "^10.5.2",
+    "firebase-admin": "^11.11.0",
+    "got": "^13.0.0",
+    "knex": "^3.0.1",
+    "mysql": "^2.18.1",
+    "uuid": "^9.0.1"
+  }
+}
